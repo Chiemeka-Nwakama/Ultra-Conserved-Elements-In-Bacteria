@@ -1,0 +1,46 @@
+Reference Genome: sequence 7
+sequence 0: NZ_NYJR01000001.1 Yersinia pestis strain 42126 42126_contig001
+sequence 1: NZ_CAAKBY010000001.1 Clostridioides difficile strain LSHTM-81
+sequence 2: NZ_JABBWS010000001.1 Micrococcus luteus strain MFP06 1
+sequence 3: NZ_FWOJ01000045.1 Klebsiella pneumoniae strain VRCO0172
+sequence 4: NZ_KK233310.1 Staphylococcus aureus VET0337R adZDQ-supercont1.1
+sequence 5: NZ_CP037933.1 Flavobacterium nackdongense strain GS13 chromosome
+sequence 6: NZ_CP075908.1 Clostridium perfringens strain CPM 77b chromosome
+sequence 7: NZ_RJKM01000001.1 Saccharothrix texasensis strain DSM 44231 Ga0197498_11
+sequence 8: NZ_NMIA01000100.1 Escherichia coli strain MOD1-EC6407 MOD1-EC6407_100_length_10555_cov_22.5471
+sequence 9: NZ_CCQA01000001.1 Escherichia coli strain FHI47
+sequence 10: NZ_BDOI01000001.1 Mycobacterium avium subsp. hominissuis strain Tone-12S
+sequence 11: NZ_CP034662.1 Moraxella catarrhalis strain 46P58B1 chromosome
+sequence 12: NZ_CYWW02000026.1 Listeria monocytogenes strain LM09-00558
+sequence 13: NZ_CP007749.1 Campylobacter jejuni subsp. jejuni M129 chromosome
+sequence 14: NZ_JAAIXC010000001.1 Burkholderia pseudomallei strain 47W_S67
+sequence 15: NZ_BNHX01000001.1 Lactobacillus delbrueckii strain ME-790 sequence001
+sequence 16: NZ_RQVD01000001.1 Veillonella sp. CHU740 contig_0001
+sequence 17: NZ_JAPWCX010000001.1 Enterococcus lactis strain M426h 1
+sequence 18: NZ_QBBF01000001.1 Helicobacter pylori strain CHL37 CHL37_Contig_1
+sequence 19: NZ_JAHOAT010000095.1 [Clostridium] innocuum strain MSK.5.23 NODE_104_length_1019_cov_539.729
+Ultra Conserved Elements
+CACCGAGGCGACGGACAGCG
+,,Position in sequence,Position in Reference Sequence
+,sequence 10,3194413,575
+TCGCCGCCGTCGCGCCGCGC
+,,Position in sequence,Position in Reference Sequence
+,sequence 14,1981285,4846
+CGCCGCCGTCGCGCCGCGCG
+,,Position in sequence,Position in Reference Sequence
+,sequence 14,2820321,4847
+CGCCGTCGCGCCGCGCGTCG
+,,Position in sequence,Position in Reference Sequence
+,sequence 14,5510177,4850
+CCGCGCTGGACGCGCTGACC
+,,Position in sequence,Position in Reference Sequence
+,sequence 10,2469761,4621
+CACCGCGCAGTCCACCATCG
+,,Position in sequence,Position in Reference Sequence
+,sequence 2,2304076,5552
+AGGACGTCGCCGACGCGTTG
+,,Position in sequence,Position in Reference Sequence
+,sequence 10,1228717,6396
+CCCCGTGGTCACCCTGCACC
+,,Position in sequence,Position in Reference Sequence
+,sequence 2,852783,6157

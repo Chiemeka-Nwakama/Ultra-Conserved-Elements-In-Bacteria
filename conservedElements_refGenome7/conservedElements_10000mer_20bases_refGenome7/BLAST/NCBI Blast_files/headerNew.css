@@ -1,0 +1,343 @@
+/* roboto-regular - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), url("fonts/roboto/roboto-v20-latin-ext_latin-regular.woff2") format("woff2"), url("fonts/roboto/roboto-v20-latin-ext_latin-regular.woff") format("woff"); }
+
+/* roboto-italic - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), url("fonts/roboto/roboto-v20-latin-ext_latin-italic.woff2") format("woff2"), url("fonts/roboto/roboto-v20-latin-ext_latin-italic.woff") format("woff"); }
+
+/* roboto-700 - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto"), local("Roboto-Regular"), url("fonts/roboto/roboto-v20-latin-ext_latin-700.woff2") format("woff2"), url("fonts/roboto/roboto-v20-latin-ext_latin-700.woff") format("woff"); }
+
+/* roboto-700italic - latin-ext_latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto"), local("Roboto-Regular"), url("fonts/roboto/roboto-v20-latin-ext_latin-700italic.woff2") format("woff2"), url("fonts/roboto/roboto-v20-latin-ext_latin-700italic.woff") format("woff"); }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.ncbi-header {
+  background-color: #20558a;
+  z-index: 10;
+  padding: 14px 0 10px 0; }
+  .ncbi-header a {
+    color: inherit;
+    text-decoration: none; }
+  .ncbi-header a:hover {
+    color: #ffffff;
+    text-decoration: underline; }
+  .ncbi-header .ncbi-header__logo {
+    width: auto;
+    float: left; }
+  .ncbi-header .header-button {
+    width: auto;
+    margin: 1.5rem 0.3rem;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+    font-weight: normal;
+    white-space: nowrap;
+    padding: 0.8rem; }
+    .ncbi-header .header-button:hover {
+      background-color: #0071bc;
+      text-decoration: none; }
+    .ncbi-header .header-button .fa {
+      margin: 0; }
+    @media screen and (min-width: 600px) {
+      .ncbi-header .header-button {
+        font-size: 1.7rem; }
+        .ncbi-header .header-button .fa {
+          margin: 0 0.2rem; } }
+    @media screen and (min-width: 1201px) {
+      .ncbi-header .header-button {
+        padding: 1rem 2rem; }
+        .ncbi-header .header-button .fa {
+          margin-left: 0;
+          margin-right: 0.5rem; } }
+  .ncbi-header .desktop-only {
+    display: none; }
+    @media screen and (min-width: 600px) {
+      .ncbi-header .desktop-only {
+        display: inherit; } }
+  .ncbi-header .account-old {
+    float: left;
+    display: block;
+    font-size: 1.4rem;
+    position: relative;
+    width: 30%;
+    text-align: right; }
+    @media screen and (min-width: 600px) {
+      .ncbi-header .account-old {
+        width: 30%;
+        font-size: 1.7rem; } }
+  .ncbi-header .logo {
+    width: 245px;
+    margin-top: 13px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 5px; }
+    @media (min-width: 375px) {
+      .ncbi-header .logo {
+        width: 280px;
+        height: 42px; } }
+    @media (min-width: 640px) {
+      .ncbi-header .logo {
+        width: 414px;
+        height: 63px;
+        margin-bottom: 0; } }
+
+.ncbi-header__account {
+  float: right; }
+  @media screen and (max-width: 600px) {
+    .ncbi-header__account {
+      width: 15%; } }
+  @media screen and (min-width: 600px) {
+    .ncbi-header__account .header-button {
+      font-size: 1.7rem; } }
+
+.account-popup {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  overflow: hidden;
+  width: 100%; }
+  @media screen and (min-width: 600px) {
+    .account-popup {
+      width: auto;
+      min-width: 16em; } }
+  .account-popup .account-user-info {
+    top: 6px;
+    position: relative;
+    padding: 1.5rem;
+    border-bottom: 1px solid #d6d7d9; }
+  .account-popup .account-links {
+    padding: 1.5rem; }
+    .account-popup .account-links li {
+      padding: 4px 0; }
+    .account-popup .account-links a {
+      color: #0071bc; }
+    .account-popup .account-links a:hover {
+      color: #000000; }
+    .account-popup .account-links a:visited {
+      color: #0071bc; }
+/*******Styles specific for BLAST header*******************/
+
+#navcontent a.lf, #type-a h1.lf, #navcontent span {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0.2em 0 0 1em;
+  font-size: 24px;
+  border-top:inherit;
+}
+
+#navcontent a.lf
+{
+/*    color:Black;*/
+}
+#navcontent  #brc {
+  font-size: 120%;
+  margin-left: -3rem;
+}
+
+#navcontent ul, #navcontent ul li {
+  display: inline-block;
+  margin-right:1em;
+}
+
+#navcontent a:hover,#blnav li.active a:hover, h1.lf a:hover, #type-a h1.lf a:hover
+{
+    color: rgba(0,0,0,.6);
+}
+
+.rf {
+  float: right;
+}
+
+body .rf a, body .rf a:visited {
+  color:#205493;
+  font-size:16px;
+  font-weight:normal;
+}
+
+#blnav li.active a {
+  color:Black;
+}
+
+
+#navcontent span#trdm {
+  font-size: 12px;
+  margin-top: -2px;
+  margin-left: -2px;
+  margin-right: 0;
+  padding-top: 0;
+}
+
+h1.lf a, #type-a h1.lf a {
+  color: black;
+}
+
+#navcontent span.brcrmbsign {
+
+  margin: 0;
+  padding-top: 0;
+  font-family: verdana;
+  font-size: 16px;
+}
+
+/*declartions from standard_base.css*/
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#brc,#brc span
+{
+  color: #5b616b;
+}
+
+header .header-div {
+  background-color: #eaeaea;
+  padding-bottom: 0.2em;
+}
+header.ncbi-header .usa-grid,
+  nav.ncbi-topnav .usa-grid {
+     max-width:1262px; padding: 0 0.5em;
+ }
+
+ div.newAd {
+  background-color: #fff1d2;
+  border: 2px #888A8C solid;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Roboto", "Helvetica Neue", Arial, Tahoma;
+  text-align: center;
+  margin-bottom: 0.5em;
+  padding: 0.4em 0.5em;
+  position: relative;
+}
+
+div.newAd span{
+  font-weight: bold;
+}
+
+div#banner_ad {
+  background-color: #e1f3f8;
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  font-size: 146%;
+  margin-bottom: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+body#type-d div#banner_ad, body#type-e div#banner_ad {
+  font-size: 1.3em;
+}
+
+#banner_ad input.sbt,#banner_ad a.sbt {
+  background-color: #e1f3f8;
+  padding: 10px 3em;
+/*  margin-top: 3px;*/
+  margin-left: 2em;
+  color: #0071bc;
+  border: 2px solid #0071bc;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 80%;
+  border-radius: 5px;
+}
+
+#banner_ad input.sbt:hover
+{
+  background-color: #0071bc;
+  color:white;
+}
+
+#banner_ad > div {
+  display: inline-block;
+}
+#banner_ad > div span{
+  padding-left: 0.2em;
+}
+#banner_ad .help {
+  color: #666;
+  font-size: 90%;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-size: 0.7em;
+}
+#banner_ad a
+{
+  color: initial;
+}
+#banner_ad a.sbt
+{
+  color:#0071bc;
+}
+
+
+#banner_ad button.close {
+  cursor: pointer;
+  position: absolute;
+  top: 1px;
+  right: 6px;
+  width: auto;
+  height: auto;
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  vertical-align: super;
+  line-height: 0.5em;
+  color: #212121;
+  font-size: 0.6em;
+}
+/* used for testing only if #banner_ad.hidden is set to display:block*/
+#banner_ad.hidden {
+  display: block;
+}
+#banner_ad.hidden > div span, #banner_ad.hidden > div i, #banner_ad.hidden button.close,#banner_ad.hidden input.jt, #banner_ad.hidden input.sbt, #banner_ad.hidden .help {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.3;
+}
+
+#banner_ad.surv > div {
+  padding-top: 0.26em;
+}
+
+#banner_ad {
+  display: none;
+}
+#banner_ad.static {
+  display: block;
+}
+#banner_ad a.sbt {
+  color: #0071bc;
+  padding-left: 1em;
+  padding-right: 1em;
+  vertical-align: middle;
+  margin-left: 0.5em;
+  font-size: 70%;
+}
